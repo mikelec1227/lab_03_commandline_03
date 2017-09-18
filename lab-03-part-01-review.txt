@@ -78,7 +78,7 @@ student$ curl -o mtec1002-lab-03.tar.gz http://foureyes.github.io/mtec1002-sprin
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
+tar
 
 
 ==========
