@@ -18,7 +18,7 @@ We're going to be writing a shell script.  First, though... let's figure out wha
 What command did you use, and what was its output?
 ----------
 
-
+date
 
 ==========
 2. Print out a calendar for this month.
@@ -26,7 +26,7 @@ What command did you use, and what was its output?
 What command did you use, and what was its output?
 ----------
 
-
+cal 2017
 
 ==========
 3. Go to your home directory.  Verify that you're in your home directory.
@@ -34,7 +34,8 @@ What command did you use, and what was its output?
 What commands did you use to do this?
 ----------
 
-
+cd ~
+pwd
 
 ==========
 4. Create an empty file called copy_to_backup.sh.  Verify that the file exists.
@@ -42,14 +43,15 @@ What commands did you use to do this?
 What commands did you use to do this?
 ----------
 
-
+touch copy_to_backup.sh
 
 ==========
 5. What are the permissions on your copy_to_backup.sh.
 
 What command did you use to find the permissions?
 ----------
-
+student$ ls -l copy_to_backup.sh
+-rw-r--r--  1 student  staff  0 Sep 18 15:15 copy_to_backup.sh
 
 
 ==========
@@ -58,7 +60,7 @@ What command did you use to find the permissions?
 What commands did you use to do this?  What was the output?
 ----------
 
-
+chmod u+x copy_to_backup.sh
 
 ==========
 7. Try executing the file!
@@ -68,7 +70,7 @@ $ ./copy_to_backup.sh
 What command did you use to try to execute the file?  What happens?
 ----------
 
-
+./copy_to_backup.sh
 
 ==========
 8. Open the file with nano
@@ -76,7 +78,7 @@ What command did you use to try to execute the file?  What happens?
 What command did you use to do this?
 ----------
 
-
+nano copy_to_backup.sh
 
 ==========
 9. In your file, write the following commands:
@@ -99,7 +101,8 @@ Write out the code in your file below...
 What commands did you use to do this?
 ----------
 
-
+touch 1.txt
+touch 2.txt
 
 ==========
 12. Move the script that you created into this directory.
@@ -107,7 +110,7 @@ What commands did you use to do this?
 What commands did you use to do this?
 ----------
 
-
+mv copy_to_backup.sh test
 
 ==========
 13. Run your script.
@@ -115,7 +118,7 @@ What commands did you use to do this?
 What commands did you use to do this?
 ----------
 
-
+./copy_to_backup.sh
 
 ==========
 14. Verify that a backup folder was created in your home directory... with copies of the files present.
